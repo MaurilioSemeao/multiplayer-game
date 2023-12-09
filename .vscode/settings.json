@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/f659acb9-b617-4730-acd0-7b8c974a227f/resourceGroups/nodeTeste/providers/Microsoft.Web/sites/multiplayerGame-ndjs",
+    "appService.deploySubpath": "."
+}
