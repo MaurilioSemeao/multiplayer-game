@@ -109,10 +109,10 @@ setInterval(() => {
 
     
     if (backEndProjectiles[id].x - PROJECTILE_RADIUS >=
-      backEndPlayers[backEndProjectiles[id].playerId]?.canvas?.width ||
+      backEndPlayers[backEndProjectiles[id].playerId].canvas.width ||
       backEndProjectiles[id].x + PROJECTILE_RADIUS <= 0 ||
       backEndProjectiles[id].y - PROJECTILE_RADIUS >=
-      backEndPlayers[backEndProjectiles[id].playerId]?.canvas?.width ||
+      backEndPlayers[backEndProjectiles[id].playerId].canvas.width ||
       backEndProjectiles[id].y + PROJECTILE_RADIUS <= 0
     ) {
       delete backEndProjectiles[id]
