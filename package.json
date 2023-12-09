@@ -1,27 +1,6 @@
 {
-  "name": "gamespace",
-  "version": "1.0.0",
-  "description": "This is a starter project for the [Chris Courses Online Multiplayer Game Tutorial](https://www.youtube.com/watch?v=Wcvqnx14cZA) available on YouTube.",
-  "main": "backend.js",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "4.6.1"
-  },
-  "devDependencies": {
-    
-  },
-  
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MaurilioSemeao/multiplayer-game.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MaurilioSemeao/multiplayer-game/issues"
-  },
-  "homepage": "https://github.com/MaurilioSemeao/multiplayer-game#readme"
+  }
 }
